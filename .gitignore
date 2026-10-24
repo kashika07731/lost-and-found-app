@@ -1,0 +1,24 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Local databases and user uploads
+# (Note: sample data will automatically seed if campus_lost_found.db is absent)
+campus_lost_found.db
+uploads/*
+!uploads/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
